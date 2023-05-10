@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Andritz-Solution/.vs/Andritz-Solution/DesignTimeBuild/.dtbcache.v2
+/Andritz-Solution/.vs/Andritz-Solution/v17/.suo
+/Andritz-Solution/Andritz-Solution/obj/Debug/net7.0/Andritz-Solution.csproj.AssemblyReference.cache

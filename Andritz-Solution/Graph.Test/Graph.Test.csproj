@@ -1,8 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>Andritz_Solution</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -24,19 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Solution.SubtitleTimeShift\Solution.SubtitleTimeShift.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="The.Matrix.1999.BluRay.720p.Malay - Assert.srt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="The.Matrix.1999.BluRay.720p.Malay - Copy.srt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="The.Matrix.1999.BluRay.720p.Malay.srt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <ProjectReference Include="..\Solution.Graph\Solution.Graph.csproj" />
   </ItemGroup>
 
 </Project>
